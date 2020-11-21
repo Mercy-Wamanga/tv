@@ -1,0 +1,45 @@
+body {
+  background-color: #222;
+}
+
+#app {
+  max-width: 1024px;
+  margin: auto;
+}
+
+#monitor {
+	background:#888; 
+	position: relative;
+	border-top: 3px solid  #000 ; 
+	margin: 5%;
+	padding: 2% 2% 4% 2%; 
+	border-radius: 10px; 
+	border-bottom-left-radius: 50% 2%; 
+	border-bottom-right-radius: 50% 2%; 
+	
+}
+
+#monitorscreen {
+	position: relative;
+  background-color: #000;
+	background-size: cover; 
+	background-position: top center;
+	height: 0; 
+	padding-bottom: 56.25%; 
+	position: relative;
+	overflow: hidden;
+}
+
+button{
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+  margin-top:10px;
+  margin-left:800px;
+  background-color: black;
+}
+i {
+  color:red;
+ 
+}
+
