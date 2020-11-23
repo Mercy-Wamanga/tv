@@ -19,14 +19,13 @@ body {
 	
 }
 
-#monitorscreen {
+.monitorscreen {
 	position: relative;
-  background-color: #000;
+  	background-color: #000;
 	background-size: cover; 
 	background-position: top center;
 	height: 0; 
 	padding-bottom: 56.25%; 
-	position: relative;
 	overflow: hidden;
 }
 
@@ -43,3 +42,25 @@ i {
  
 }
 
+.tvScreen{
+	position: relative;
+  	background-color: rgb(255, 240, 240);
+	background-size: cover; 
+	background-position: top center;
+	height: 0; 
+	padding-bottom: 56.25%; 
+	overflow: hidden;
+}
+
+.image{
+	margin: 30px 0px 0px 180px;
+}
+/* img{
+	position: relative;
+  	background-color: #000;
+	background-size: cover; 
+	background-position: top center;
+	height: 0; 
+	padding-bottom: 56.25%; 
+	overflow: hidden;
+} */

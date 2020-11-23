@@ -1,10 +1,13 @@
 new Vue({
-  el : '#app',
-	
-	methods:{
-		toggle:function(){
-			this.signal=!this.signal;
+	el: '#app',
+	data() {
+		return {
+			signal: false
 		}
+	},
+	methods: {
+		toggle: function () {
+			this.signal = !this.signal;
 		}
-	
+	}
 });
